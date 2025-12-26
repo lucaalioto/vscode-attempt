@@ -3,7 +3,7 @@
     "publisher": "lucaalioto",
     "displayName": "Luca Themed",
     "description": "Attempting to convert my R Studio theme to VsCode/Positron",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.90.0"
     },
