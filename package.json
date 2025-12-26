@@ -1,0 +1,21 @@
+{
+  "name": "vscode-attempt",
+  "displayName": "vscode_attempt",
+  "description": "Attempting to convert my R Studio theme to Psotitron",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "VsCodePositron)"
+        "path": "./themes/vscode-color-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  }
+}

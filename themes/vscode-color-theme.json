@@ -1,0 +1,109 @@
+{
+  "name": "VSCode Theme (from rstheme)",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E1E1E",
+    "editor.foreground": "#A9E1FB",
+    "editorCursor.foreground": "#FFFFFF",
+
+    "editor.selectionBackground": "#4E535C",
+    "editor.inactiveSelectionBackground": "#4E535C",
+    "editor.selectionHighlightBackground": "#4E535C",
+
+    "editor.lineHighlightBackground": "#282A2E",
+    "editorLineNumber.foreground": "#666E76",
+    "editorLineNumber.activeForeground": "#666E76",
+    "editorGutter.background": "#232525",
+
+    "editorWhitespace.foreground": "#4B4E55",
+    "editorIndentGuide.background1": "#4B4E55",
+    "editorIndentGuide.activeBackground1": "#666E76",
+
+    "editorBracketMatch.border": "#4B4E55",
+
+    "editorError.foreground": "#DF5F5F",
+
+    "terminal.background": "#1D1F21",
+    "terminal.foreground": "#C5C8C6",
+    "terminalCursor.foreground": "#CCCCCC",
+    "terminalCursor.background": "#CCCCCC",
+    "terminal.selectionBackground": "#CCCCCC33"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#6B9258" }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": { "foreground": "#D09887" }
+    },
+    {
+      "name": "Keywords / Storage / Meta",
+      "scope": [
+        "keyword",
+        "storage",
+        "storage.type",
+        "meta",
+        "support.type"
+      ],
+      "settings": { "foreground": "#C681DD" }
+    },
+    {
+      "name": "Operators / Punctuation (parens, $, etc.)",
+      "scope": [
+        "keyword.operator",
+        "punctuation",
+        "meta.brace",
+        "meta.bracket",
+        "meta.paren"
+      ],
+      "settings": { "foreground": "#D7D7D7" }
+    },
+    {
+      "name": "Numbers / Constants / Parameters",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "support.constant",
+        "variable.parameter"
+      ],
+      "settings": { "foreground": "#B1CFA3" }
+    },
+    {
+      "name": "Other constants",
+      "scope": ["constant.other"],
+      "settings": { "foreground": "#CED1CF" }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": { "foreground": "#DCDC9E" }
+    },
+    {
+      "name": "Types / Classes",
+      "scope": [
+        "support.class",
+        "support.type",
+        "entity.name.type"
+      ],
+      "settings": { "foreground": "#D7D7D7" }
+    },
+    {
+      "name": "Tags / Attributes / Regex",
+      "scope": [
+        "entity.name.tag",
+        "entity.other.attribute-name",
+        "meta.tag",
+        "string.regexp"
+      ],
+      "settings": { "foreground": "#CC6666" }
+    }
+  ]
+}
